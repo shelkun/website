@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul,li,ol{
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper_section1{
+    height: 1111px;
+}
+
+.menu_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.picture{
+    background: url("../img/index/Main.png") no-repeat center center / cover;
+    height: 1111px;  
+}
+
+
+.textr{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 254, 254);
+    font-size: 24px;
+    line-height: 29.26px;
+
+}
+.header{
+    padding: 27px 0 17px 0;
+}
+.contacts{
+    display: flex;
+}
+
+.contacts_pic{
+    margin: 0px 5px;
+}
+.phone_number{
+    margin-left: 60px;
+}
+.textb{
+    font-family: 'Montserrat';
+    font-size: 'normal';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.theader{
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.tx1{
+    font-size: 40px;
+    line-height: 49px;
+    width: 1368px;
+    height: 98px;
+}
+
+.text_group{
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Intro */
+
+.text_intro{
+    padding: 19px 0 0 0;
+}
+
+.textb{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+}
