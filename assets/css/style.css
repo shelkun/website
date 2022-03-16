@@ -304,7 +304,7 @@ ul,li,ol{
     background-color: blue;
 }
 
-.wrraper_section1{
+.wrapper_section1{
     height: 779px;
     margin: 0 auto;
     display: flex;
@@ -364,5 +364,258 @@ ul,li,ol{
 
 .wrapper_section3{
     height: 872px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
 }
+.sc3{
+    width: 623px;
+    height: 48px;
+}
+
+.sc3-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #402D50;
+    padding-top: 14px;
+}
+
+.section3_group{
+    display: block;
+}
+.s3-2{
+    margin-top: 0;
+}
+.sc3-3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #402D50;
+    padding-top: 14px;
+    padding-top: 0;
+}
+
+.databox{
+    padding-top: 59px;
+
+}
+
+
+.left_databox{
+    display: flex;
+   
+}
+
+.right_databox{
+    display: flex;
+    margin-top: 64px;
+    
+}
+.name_input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    
+}
+
+.name_input1-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    width: 278px;
+    height: 60px;
+    text-align: center;
+    margin-left: 58px;
+}
+
+.name_input2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #A9A6A8;
+    border-radius: 20px;
+    width: 278px;
+    height: 91px;
+    text-align: center;
+}
+
+.s3-4{
+    width: 278px;
+    height: 91px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 58px;
+}
+
+.phone{
+    width: 51px;
+    height: 51px;
+    margin-bottom: 30px;
+
+}
+.group_phone{
+    display: flex;
+    margin-top: 30px;  
+}
+
+.s3-5{
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.wrapper_section4{
+    height: 1674px;
+    margin: 0 auto;
+}
+.videobox{
+    display: flex;
+    justify-content: center;
+    padding-top: 124px;
+}
+
+.video{
+    width: 1023px;
+    height: 552px;
+    background: #C4C4C4;
+    
+
+}
+
+.text_video{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 176px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 186px;
+}
+
+.map_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.map_text span{
+    color: #402D50;
+}
+
+.map_pic{
+    background-image: url(../img/index/map.png);
+    width: 1607px;
+    height: 604px;
+}
+.textsc4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 50px;
+
+}
+
+.s4{
+    width: 299px;
+    height: 60px;
+}
+.s4-1{
+    width: 299px;
+    height: 60px;
+    margin-left: 58px;
+}
+
+.wrapper_section5{
+    height: 949px;
+    margin: 0 auto;
+}
+
+.textsc5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.textsc5-1{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 28px;
+}
+
+.icon_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.icon{
+     padding-top: 47px;
+     display: block;
+     justify-content: center;
+
+}
+.top_icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 47px;
+    
+}
+.bottom_icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.icon1{
+    margin-left: 54px;
+}
+
+
+
+
+
 
