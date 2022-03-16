@@ -39,6 +39,7 @@ ul,li,ol{
     font-weight: 600;
   }
 
+
 .container{
     width: 1400px;
     margin: 0 auto;
@@ -73,12 +74,15 @@ ul,li,ol{
 .header{
     padding: 27px 0 17px 0;
 }
+.menu_nav{
+    display: flex;
+}
 .contacts{
     display: flex;
 }
 
 .contacts_pic{
-    margin: 0px 5px;
+    margin: 0px 20px;
 }
 .phone_number{
     margin-left: 60px;
@@ -132,10 +136,216 @@ ul,li,ol{
 }
 
 .menu_link{
-   
+    padding-left: 11px;
+}
+
+.pic_main_intro1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    
+}
+.pic_main_intro1::before{
+    content:"" ;
+    background-image: url(../svg/Intro_Book.svg);
+    width: 71px;
+    height: 71px;
+    display: block;
+    margin-right: 55px;
+}
+
+.pic_main_intro2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.pic_main_intro2::before{
+    content:"" ;
+    background-image: url(../svg/Intro_Computer.svg);
+    width: 71px;
+    height: 71px;
+    display: block;
+    margin-right: 55px;
+}
+
+.pic_main_intro3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.pic_main_intro3::before{
+    content:"" ;
+    background-image: url(../svg/Intro_Group.svg);
+    width: 71px;
+    height: 71px;
+    display: block;
+    margin-right: 55px;
+}
+
+.pic_main_intro4{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    
+}
+.pic_main_intro4::before{
+    content:"" ;
+    background-image: url(../svg/Intro_Group2.svg);
+    width: 71px;
+    height: 71px;
+    display: block;
+    margin-right: 55px;
+}
+
+.textm1{
+ 
+    height: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+
+.textm2{
+ 
+    height: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+
+.textm3{
+  
+    height: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 59px;
+    
+}
+
+.textm4{
+    
+    height: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+
+
+.text_foot{
+    
+}
+
+.text_foot2{
+    padding-top: 73px;
+    margin-left: 31px;
 }
 
 .textm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.buttonbox{
+    width: 299px;
+    height: 91px;
+    background: #A56492;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 95px;
+    margin-top: 70px;
+    text-decoration: none;
+    
+    
+}
+
+.butt{
+   margin-left: -155px;
+   margin-top: -8px;
+   transform: 0.3;
+   
+}
+
+.butto{
+    margin-left: 63px;
+    margin-top: -45px;
+}
+
+.buttonbox  :hover{
+    background-color: blue;
+}
+
+.wrraper_section1{
+    height: 779px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+}
+
+.section1_img{
+    
+}
+
+.textsc1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 409px;
+    height: 48px;
+}
+
+.textsc1-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 602px;
+    margin-top: 15px;
+}
+
+.crysis{
+    background: #A56492;
+    border-radius: 20px;
+    width: 480px;
+    height: 91px;
+}
+
+.crysis_text{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -144,8 +354,15 @@ ul,li,ol{
     color: #FFFFFF;
 }
 
-.pic_main_intro1::before{
-    content: ;
-    background-image: url(../img/index/Cleanwomen.png);
+.button_scr1{
+    padding-top: 95px;
+}
+
+.section_text_group{
+    padding-top: 64px;
+}
+
+.wrapper_section3{
+    height: 872px;
 }
 
