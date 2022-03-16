@@ -48,7 +48,7 @@ ul,li,ol{
     height: 1111px;
 }
 
-.menu_link{
+.intro_link{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,3 +126,26 @@ ul,li,ol{
     color: #FFFFFF;
     text-align: center;
 }
+
+.textb span{
+    color: #402D50;
+}
+
+.menu_link{
+   
+}
+
+.textm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.pic_main_intro1::before{
+    content: ;
+    background-image: url(../img/index/Cleanwomen.png);
+}
+
