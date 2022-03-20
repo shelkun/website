@@ -1683,13 +1683,9 @@ font-size: 20px;
 line-height: 24px;
 
 color: #FFFFFF;
+}
 
-}
-.border_solid_foot
-{
-    padding-bottom: 40px;
-    border-bottom: #fff 7px solid
-}
+    
 .foot_link
 {
     font-family: 'Montserrat';
@@ -1704,11 +1700,14 @@ color: #FFFFFF;
 {
     padding-top: 40px;
 }
-.footer_row
+.footer_intro
 {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: #fff 7px solid
 }
+
 .footer_textcont
 {
     max-width: 350px; 
@@ -1722,3 +1721,6 @@ color: #FFFFFF;
 
 }
 
+.nav_header{
+    text-decoration: none;
+}
