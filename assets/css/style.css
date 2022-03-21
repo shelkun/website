@@ -1724,3 +1724,132 @@ color: #FFFFFF;
 .nav_header{
     text-decoration: none;
 }
+
+/* Карточки */
+.card_container
+{
+    max-width: 930px;
+    padding: 30px 15px 30px 40px;
+}
+.card_box
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #000000;
+
+}
+.card_block
+{
+    width: 225px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+    
+}
+.card_title
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+padding: 10px 0px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.title_text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;   
+}
+.card_text
+{
+    padding: 40px 0px ;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center  ;
+color: #000000;
+
+}
+.card_box_2
+{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1440px)
+{
+    .container
+    {
+        max-width: 1200px;
+    }
+}
+@media (min-width:1600px)
+{
+.container
+{
+    max-width: 1500px;
+}
+}
+@media (max-width:1024px)
+{
+    .container
+    {
+        max-width: 900px;
+    }
+    .title_text
+    {
+    font-size: 18px;
+    }
+    .sub-title_text
+    {
+        font-size: 18px;
+    }
+    .header_wrapper
+    {
+        font-size: 0px;
+    }
+    .phone_number
+    {
+        font-size: 18px;
+    }
+    .menu_link
+    {
+        font-size: 16px;
+    }
+}
+
+.s_card{
+    width: 278px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 58px;
+}
+
+.s_card2{
+    margin-top: -26px;
+    text-decoration: none;
+}
